@@ -76,6 +76,7 @@ apacheのstaticファイル全体に対して、FileETagとCache-Controlの設�
 ```
 
 ## キャッシュ有効期限の設定
+クライアントキャッシュの有効期限設定は、Cache-Control: no-cacheを指定して常にキャッシュの有効性を確認する戦略の場合は、なくても問題ない。
 
 ```xml
 <IfModule mod_expires.c>
